@@ -1,0 +1,18 @@
+----------Colors----------
+GreenBackground --> #006341
+GrayBackground --> #F7F7F7
+WhiteBackground --> #FFFFFF
+GrayTypografy --> #3D3935
+BlackTypografy --> #000000
+
+
+----------Tipografy----------
+https://fonts.google.com/specimen/Rubik?category=Sans+Serif,Display,Handwriting,Monospace&query=rubik
+---> Light 300
+--> Regular 400
+--> Medium 500
+
+----------Icons----------
+https://www.flaticon.com/packs/coffee-shop-188?word=coffee%20shop
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

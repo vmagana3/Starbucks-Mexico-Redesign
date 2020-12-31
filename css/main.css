@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+body #menu {
+  width: 100%;
+  display: flex;
+  padding: 3% 0% 3% 0%;
+  background-color: #006341;
+}
+body #menu #logo {
+  width: 10%;
+  margin-left: 8%;
+  display: flex;
+  justify-content: center;
+}
+body #menu #optionsDiv {
+  width: 45%;
+  display: flex;
+}
+body #menu #optionsDiv div {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+body #menu #optionsDiv div .options {
+  justify-self: center;
+  align-self: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+body #menu #optionsDiv div .options:hover {
+  transition-duration: 3s;
+  border-bottom: 1px solid #FFFFFF;
+}
+body #menu #shopDiv {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+body #menu #shopDiv div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+body #menu #shopDiv div #linkDelivery {
+  align-self: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+body #menu #shopDiv div #linkCart {
+  align-self: center;
+}
+body #footer {
+  width: 100%;
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #F7F7F7;
+}
+body #footer .footerItem {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+body #footer .footerItem a {
+  text-decoration: none;
+  color: #3D3935;
+}
+body #footer .footerItem #socialNetworks {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+/*# sourceMappingURL=main.css.map */
