@@ -5,10 +5,12 @@ All the components was coded by myself and with technology resources that i know
 Check below some resoruces that i used to complement the project.
 
 
-## Attributions](https://www.frontendmentor.io)
-Icons from (https://www.flaticon.com/)
-Fonts and typographie from (https://fonts.google.com/)
-Some text and info from (https://www.starbucks.com.mx/)
+## Attributions
+Icons from https://www.flaticon.com/
+Icons from https://iconscout.com/icons/rappi
+Fonts and typographie from https://fonts.google.com/
+Some text and info from https://www.starbucks.com.mx/
+
 
 
 

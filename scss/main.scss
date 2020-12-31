@@ -1,10 +1,12 @@
 //-------------Colors------------//
 $GreenBackground: #006341;
 $GrayBackground: #F7F7F7;
+$CoffeeBackground:#f1f0eb;
 $WhiteBackground: #FFFFFF;
 $GrayTypographie:#3D3935;
 $BlackTypographie:#000000;
 $WhiteTypographie: #FFFFFF;
+$RedBackground:#e2211c;
 
 
 //-------------Typographies------------//
@@ -86,15 +88,110 @@ body
 
     }
 
+    //-----Cuerpo de la página------------//
+    #coffeInfo
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        #coffeeText
+        {
+            width: 100%;     
+            display: flex;
+            justify-content: center;                                                    
+            div
+            {
+                width: 70%;
+                text-align: center;
+                p
+                {
+                    font-size: 120%;
+                }
+            }                                               
+        }
+        #coffeeTypes
+        {
+            width: 100%;             
+            display: flex;
+            justify-content: center;             
+            div
+            {
+                width: 80%;
+                display: flex;    
+                justify-content: space-around;                                                            
+                .coffeType            
+                {
+                    width: 10%;
+                    margin-top: 5%;
+                    display: flex;
+                    flex-direction: column;  
+                    text-align: justify;                                                                              
+                    text-align: center;
+                    img
+                    {
+                        align-self: center;
+                    }
+                }               
+            }                      
+        }
+    }
+
+
+    #deliverySection
+    {
+        width: 100%;        
+        display: flex;
+        margin-top: 10%;        
+
+        #deliverySectionImage
+        {
+            width: 50%;
+            display: flex;
+            justify-content: center;                                    
+        }
+
+        #deliverySectionText
+        {
+            width: 50%;           
+            display: flex;
+            justify-content: center;                                                            
+            div
+            {
+                width:auto;                
+                display: flex;
+                flex-direction: column;
+                justify-content: center; 
+                text-align: center;
+                h1
+                {
+                    margin: 0;
+                    padding: 0;
+                }
+                p
+                {
+                    margin-top: 0;
+                    font-size: x-large;
+                }   
+                a
+                {
+                    text-decoration: none;
+                    color:$GrayTypographie;
+                }                                                           
+            }
+        }
+    }
+
 
     //-----Pie de página------------//
     #footer
     {
         width: 100%;
         display: flex;
+        margin-top: 5%;
         padding-top: 3%;
         padding-bottom: 3%;
-        background-color: $GrayBackground;
+        background-color: $CoffeeBackground;
         .footerItem
         {
             width: 25%;
