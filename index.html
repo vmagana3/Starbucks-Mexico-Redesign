@@ -6,8 +6,10 @@
     <title>Cofee Shop</title>
 
     <!-- Hoja de estilos -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./css/menufooter.css">
     <link rel="stylesheet" href="./css/main.css">
-    <!-- Enlace a hoja de estilos -->
+    <!-- Enlace a tipografias -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
@@ -22,7 +24,7 @@
 
         <div id="optionsDiv">
             <div>
-                <a href="" class="options">Café</a>
+                <a href="./views/coffee.html" class="options">Café</a>
                 <a href="" class="options">Nosotros</a>
                 <a href="" class="options">Contacto</a>
             </div>                        
@@ -89,6 +91,8 @@
         </div>        
     </div>
 
+    
+
   
 
 
@@ -114,4 +118,10 @@
     </div>
 
 </body>
+
+<script>
+ScrollReveal().reveal('#coffeInfo');
+ScrollReveal().reveal('#deliverySection');
+
+</script>
 </html>

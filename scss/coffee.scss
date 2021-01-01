@@ -1,0 +1,122 @@
+//-------------Colors------------//
+$GreenBackground: #006341;
+$GreenText:#2a8a15;
+$GrayBackground: #F7F7F7;
+$CoffeeBackground:#f1f0eb;
+$WhiteBackground: #FFFFFF;
+$GrayTypographie:#3D3935;
+$BlackTypographie:#000000;
+$WhiteTypographie: #FFFFFF;
+$RedBackground:#e2211c;
+
+
+//-------------Typographies------------//
+$MainTypographie:'Rubik', sans-serif;
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: $MainTypographie;  
+    
+    .text1
+    {
+        border-bottom: 1px solid $GreenBackground;
+        padding: 5% 0% 3% 0%;
+        color: $GreenBackground;
+    }
+
+    .text2
+    {
+        font-weight: lighter;
+        font-size: xx-large;
+    }
+
+    .text3
+    {
+        font-weight: lighter;
+        font-size: x-large;
+    }
+    .text4
+    {
+        font-weight: lighter;
+        font-size: medium;
+    }
+
+    #starbucks
+    {
+        width: 100%;      
+        display: flex;
+        justify-content: center;                                  
+        div
+        {
+            
+            width: 70%;
+            text-align: center;               
+        }        
+    }
+
+    #ourCompany
+    {
+        width: 100%;      
+        display: flex;
+        justify-content: center;
+        div
+        {
+            width: 70%;
+            text-align: center; 
+            #hiddenText
+            {
+                font-size:medium;                
+                color:#2a8a15;
+                img
+                {
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+            #hiddenText:hover
+            {                
+                cursor: pointer;                                
+            }            
+        }       
+    }
+
+    #ourMision
+    {
+        width: 100%;      
+        display: flex;
+        flex-direction: column;                              
+
+        #title
+        {
+            width: 70%;
+            align-self: center;            
+            text-align: center;            
+        }
+        #cardsContent
+        {
+            width: 100%;
+            display: flex;  
+            justify-content: space-around;          
+            div
+            {
+                width: 20%;
+                text-align: center;
+                h4
+                {
+                    color:#2a8a15;
+                    img
+                    {
+                        width: 10px;
+                        height: 10px;
+                    }
+                } 
+                h4:hover
+                {
+                    cursor: pointer;
+                }                          
+            }            
+        }
+    }
+}
