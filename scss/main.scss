@@ -29,7 +29,7 @@ body
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 7%;        
+        margin-top: 10%;        
         #coffeeText
         {
             width: 100%;     
@@ -39,39 +39,52 @@ body
             {
                 width: 70%;
                 text-align: center;
+                img
+                {
+                    width: 100%;                                     
+                }
                 p
                 {
-                    font-size: 120%;
+                    font-size: 150%;
                 }
             }                                               
-        }
-        #coffeeTypes
+        }       
+    }
+
+    #rewardsSection
+    {        
+        display: flex;
+        justify-content: center;  
+        margin-top: 10%;               
+        div
         {
-            width: 100%;             
-            display: flex;
-            justify-content: center;                         
-            div
+            text-align: center;
+            padding: 5% 5% 5% 5%;
+            border-radius: 20px;
+            color: $WhiteBackground;
+            background-color: $GreenBackground;
+            -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+            box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+            h3,h2
             {
-                width: 80%;
-                display: flex;    
-                justify-content: space-around;                 
-                margin-bottom: 3%;  
-                border-bottom:2px solid $GrayTypographie;                                                                         
-                .coffeType            
-                {
-                    width: 10%;
-                    margin-top: 5%;
-                    display: flex;
-                    flex-direction: column;  
-                    text-align: justify;                                                                              
-                    text-align: center; 
-                    border-bottom: none;                   
-                    img
-                    {
-                        align-self: center;
-                    }
-                }               
-            }                      
+                font-weight: lighter;
+            }
+
+            .btnrewards
+            {
+                border: none;
+                border-radius: 20px;
+                padding: 3% 10% 3% 10%;
+                margin: 5%;
+                color: $GreenBackground;
+                font-family: $MainTypographie;
+                font-size: medium;
+            }
+            div 
+            {
+                box-shadow: none;
+            }
         }
     }
 
