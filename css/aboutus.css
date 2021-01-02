@@ -22,6 +22,7 @@ body .text4 {
 }
 body #starbucks {
   width: 100%;
+  margin-top: 5%;
   display: flex;
   justify-content: center;
 }
@@ -29,30 +30,50 @@ body #starbucks div {
   width: 70%;
   text-align: center;
 }
+body #starbucks div div {
+  width: 100%;
+}
+body #starbucks div div img {
+  margin-top: 5%;
+  border-radius: 500px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+}
 body #ourCompany {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 10%;
 }
 body #ourCompany div {
   width: 70%;
   text-align: center;
 }
 body #ourCompany div #hiddenText {
-  font-size: medium;
+  font-size: large;
   color: #2a8a15;
 }
 body #ourCompany div #hiddenText img {
   width: 10px;
   height: 10px;
 }
-body #ourCompany div #hiddenText:hover {
-  cursor: pointer;
+body #ourCompany div div {
+  width: 100%;
+}
+body #ourCompany div div img {
+  margin-top: 5%;
+  border-radius: 500px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
 }
 body #ourMision {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 body #ourMision #title {
   width: 70%;
@@ -78,5 +99,16 @@ body #ourMision #cardsContent div h4 img {
 body #ourMision #cardsContent div h4:hover {
   cursor: pointer;
 }
+body #ourMision #cardsContent div div p {
+  font-size: smaller;
+  font-style: italic;
+}
+body #ourMision #cardsContent div div img {
+  width: 50%;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+}
 
-/*# sourceMappingURL=coffee.css.map */
+/*# sourceMappingURL=aboutus.css.map */

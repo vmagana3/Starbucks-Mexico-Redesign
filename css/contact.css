@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+body #maincontent {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 15%;
+  margin-top: 5%;
+}
+body #maincontent #form {
+  width: 60%;
+}
+body #maincontent #form #inputs {
+  display: flex;
+  flex-direction: column;
+}
+body #maincontent #form #inputs textarea {
+  border-radius: 20px;
+}
+body #maincontent #form #inputs input {
+  width: 50%;
+  margin-top: 5%;
+  padding: 2%;
+  border-radius: 20px;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  font-size: medium;
+  background-color: #006341;
+  color: #FFFFFF;
+}
+body #maincontent #form #inputs input:hover {
+  background-color: #FFFFFF;
+  color: #2a8a15;
+  border: 1px solid #006341;
+}
+body #maincontent #data .dataitem {
+  text-align: center;
+}
+body #maincontent #data .dataitem h4 {
+  margin: 0;
+  margin-top: 30%;
+}
+body #maincontent #data .dataitem p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=contact.css.map */
