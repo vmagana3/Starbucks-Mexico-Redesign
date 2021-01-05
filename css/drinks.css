@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+body #text {
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+body #text h1 {
+  font-size: 320%;
+}
+body #text h4 {
+  font-weight: lighter;
+  font-size: 150%;
+}
+body .divCategory {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+body .divCategory .categoryName {
+  width: 100%;
+}
+body .divCategory .categoryName h2 {
+  margin-left: 2%;
+  color: #2a8a15;
+}
+body .divCategory .productCards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+body .divCategory .productCards .product {
+  width: 15%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.71);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.71);
+}
+body .divCategory .productCards .product .general {
+  display: flex;
+  flex-direction: column;
+}
+body .divCategory .productCards .product .general img {
+  border-radius: 10px;
+}
+body .divCategory .productCards .product .general h4 {
+  margin: 0;
+  margin-top: 5%;
+}
+body .divCategory .productCards .product .general h5 {
+  margin: 0;
+  font-weight: lighter;
+}
+body .divCategory .productCards .product .addItem {
+  text-align: center;
+}
+
+/*# sourceMappingURL=drinks.css.map */

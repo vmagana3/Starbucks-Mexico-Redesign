@@ -1,0 +1,96 @@
+//-------------Colors------------//
+$GreenBackground: #006341;
+$GreenText:#2a8a15;
+$GrayBackground: #F7F7F7;
+$CoffeeBackground:#f1f0eb;
+$WhiteBackground: #FFFFFF;
+$GrayTypographie:#3D3935;
+$BlackTypographie:#000000;
+$WhiteTypographie: #FFFFFF;
+$RedBackground:#e2211c;
+
+
+//-------------Typographies------------//
+$MainTypographie:'Rubik', sans-serif;
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: $MainTypographie;
+
+    #text
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+        h1
+        {
+            font-size:320%
+        }
+        h4
+        {
+            font-weight: lighter;
+            font-size: 150%;
+        }                
+    }
+
+    .divCategory
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        margin-top: 5%;               
+        .categoryName
+        {
+            width: 100%;                          
+            h2
+            {                
+                margin-left: 2%;
+                color: $GreenText;
+            }
+        }
+
+        .productCards
+        {
+            width: 100%; 
+            display: flex;
+            justify-content: space-around;                                           
+            .product
+            {
+                width: 15%;
+                padding: 1%;
+                display: flex;
+                flex-direction: column;
+                border-radius: 10px;
+                -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.71); 
+                box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.71);                                
+                
+                .general
+                {
+                    display: flex;
+                    flex-direction: column;                                          
+                    img
+                    {
+                        border-radius: 10px;
+                    }   
+                    h4
+                    {
+                        margin: 0;
+                        margin-top: 5%;
+                    } 
+                    h5
+                    {
+                        margin: 0;
+                        font-weight: lighter;
+                    }                               
+                }
+
+                .addItem
+                {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
