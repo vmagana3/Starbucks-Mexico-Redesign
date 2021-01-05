@@ -1,0 +1,48 @@
+//-------------Colors------------//
+$GreenBackground: #006341;
+$GreenText:#2a8a15;
+$GrayBackground: #F7F7F7;
+$CoffeeBackground:#f1f0eb;
+$WhiteBackground: #FFFFFF;
+$GrayTypographie:#3D3935;
+$BlackTypographie:#000000;
+$WhiteTypographie: #FFFFFF;
+$RedBackground:#e2211c;
+
+
+//-------------Typographies------------//
+$MainTypographie:'Rubik', sans-serif;
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: $MainTypographie; 
+
+    #text
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 7%;
+    }
+
+    #menuItems
+    {
+        display: flex;
+        justify-content: space-around;     
+        margin-top: 10%;                 
+
+        div
+        {            
+            text-align: center;   
+            font-size: xx-large;
+            font-weight: lighter;  
+            
+            img:hover
+            {
+                transform: scale(1.1) translate(1%, 1%);
+                transition-duration: 0.5s;        
+            }
+        }
+    }
+}
