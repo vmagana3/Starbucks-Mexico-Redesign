@@ -7,7 +7,7 @@
 
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="../css/menufooter.css">
-    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/cart.css">
     <!-- Enlace a tipografias -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
@@ -38,45 +38,60 @@
     </div>
 
     <!--Contenido Principal de la página-->
-
-    <div id="maincontent">
-
-        <div id="form">
-
+    <div id="text">
+        
+    </div>
+    
+    <div id="mainContainer">
+        <div>
             <div id="text">
-                <h2>Tu opinión en lo más importante</h2>
-                <p>Dejanos tus comentarios y sugerencias aqui abajo</p>
+                <h2>Tus productos seleccionados</h2>
             </div>
+        
+            <div id="tableContainer">
+                <table>
+                    <tr id="tableHeader">
+                        <td><h3>Producto</h3></td>
+                        <td><h3>Precio Individual</h3></td>                
+                    </tr>
+        
+                    <tr class="itemProduct">
+                        <td><h4>Café Late - Leche con shot de Espresso</h4></td>
+                        <td><h4>$55.0</h4></td>
+                    </tr>
+        
+                    <tr class="itemProduct">
+                        <td><h4>Flat White - Leche con shot de ristretto</h4></td>
+                        <td><h4>$35.0</h4></td>
+                    </tr>
+        
+                    <tr class="itemProduct">
+                        <td><h4>Espresso Americano - Agua con shot de Espresso</h4></td>
+                        <td><h4>$15.0</h4></td>
+                    </tr> 
 
-            <div id="inputs">
-                <textarea id="textareacoments" cols="30" rows="10"></textarea>            
-                <input type="submit">
+                    <tr class="itemProduct">
+                        <td><h4></h4></td>
+                        <td><h3></h3></td>
+                    </tr>
+                    
+                    <tr class="itemProduct">
+                        <td><h4></h4></td>
+                        <td><h3>Total: $105.0 MX</h3></td>
+                    </tr>
+                </table>
             </div>
-                        
-        </div>
-
-        <div id="data">
-            <div class="dataitem">
-                <h4>Email</h4>
-                <p>tuopinion@starbucks.com</p>            
-            </div>
-
-            <div class="dataitem">
-                <h4>Teléfono de Atención</h4>
-                <p>01 800 288 08 88</p>            
-            </div>
-
-            <div class="dataitem">
-                <h4>Redes Sociales</h4>
-                <div>
-                    <a href="https://www.facebook.com/StarbucksMexico"><img src="../images/facebook.svg" alt="facebook" style="width: 20px; height: 20px;"></a>
-                    <a href="https://www.instagram.com/starbucksMex/"><img src="../images/instagram.svg" alt="instagram" style="width: 20px; height: 20px;"></a>
-                    <a href="https://twitter.com/StarbucksMex"><img src="../images/twitter.svg" alt="twitter" style="width: 20px; height: 20px;"></a>                                                
-                </div>       
+        
+            <div id="pay">                
+                <button>Pagar</button>
             </div>
 
         </div>
     </div>
+    
+   
+    
+    
 
 
 

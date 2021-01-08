@@ -1,0 +1,94 @@
+//-------------Colors------------//
+$GreenBackground: #006341;
+$GreenText:#2a8a15;
+$GrayBackground: #F7F7F7;
+$CoffeeBackground:#f1f0eb;
+$WhiteBackground: #FFFFFF;
+$GrayTypographie:#3D3935;
+$BlackTypographie:#000000;
+$WhiteTypographie: #FFFFFF;
+$RedBackground:#e2211c;
+
+
+//-------------Typographies------------//
+$MainTypographie:'Rubik', sans-serif;
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: $MainTypographie;
+    
+    #mainContainer
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;                
+        
+        div
+        {
+            width: 80%;            
+
+            #text
+            {
+                width: 100%;         
+                margin-top: 3%;                       
+            }
+
+            #tableContainer
+            {
+                width: 100%;
+                margin-top: 3%;                                
+                border-bottom: 1px solid $GreenText;              
+                table
+                {
+                    width: 100%;
+                    border-radius: 10px;                                        
+                    #tableHeader
+                    {
+                        h3
+                        {
+                            margin: 0;
+                        }
+                        color: $GreenText;
+                    }
+                    .itemProduct
+                    {
+                        h4
+                        {
+                            margin: 0;
+                            margin-top: 2%;
+                            font-weight: lighter;
+                        }
+                        h3
+                        {
+                            margin: 0;
+                            margin-top: 3%;
+                        }
+                    }
+                }
+            }
+
+            #pay
+            {
+                width: 100%;
+                margin-top: 3%;
+                display: flex;
+                justify-content: center;                                                
+                button
+                {
+                    width: 20%;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: medium; 
+                    background-color: $GreenBackground;
+                    color: $WhiteTypographie;   
+                    padding: 1%;   
+                    font-family: $MainTypographie;             
+                }
+            }
+
+        }
+    }
+}
