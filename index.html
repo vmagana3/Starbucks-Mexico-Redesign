@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cofee Shop</title>
+    <title>Starbucks Cofee Shop</title>
 
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="./css/menufooter.css">
     <link rel="stylesheet" href="./css/main.css">
+     <!--Libreria de animación-->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- Enlace a tipografias -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
@@ -32,7 +35,7 @@
         <div id="shopDiv">
             <div>
                 <a id="linkDelivery" href="./views/menu.html">Delivery Menu</a>                
-                <a id="linkCart" id="cartLink" href="./views/cart.html"><img src="./images/cart.svg" alt="" style="width: 30px; height: 30px;"></a>
+                <a id="linkCart" href="./views/cart.html"><img src="./images/cart.svg" alt="" style="width: 30px; height: 30px;"></a>
             </div>            
         </div>
     </div>
@@ -41,7 +44,7 @@
 
 
     <!-- Contenido principal de la página -->    
-    <div id="coffeInfo">
+    <div data-aos="fade-up" id="coffeInfo">
         <div id="coffeeText">
             <div>
                 <h1>NUESTRO CAFÉ</h1>
@@ -61,7 +64,7 @@
     </div>
 
 
-    <div id="rewardsSection">
+    <div data-aos="fade-up" id="rewardsSection">
         <div>
             <img src="./images/starbucks.svg" alt="" style="width: 100px; height: 100px;">
             <h2>Holaaaa, café gratis</h2>
@@ -75,7 +78,7 @@
     </div>
 
 
-    <div id="deliverySection">
+    <div data-aos="fade-up" id="deliverySection">
         <div id="deliverySectionImage">
             <img src="./images/delivery.svg" alt="coffee" style="width: 320px; height: 300px;">
         </div>
@@ -83,8 +86,8 @@
             <div>
                 <h1>STARBUCKS DELIVERS</h1>
                 <p>Pide tus favoritos a través de:</p>   
-                <a href=""><img src="./images/eats.svg" alt="uber eats"  style="width: 100px; height: 100x;"></a>  
-                <a href=""><h4>O ingresa al Delivery Menú</h4></a>                       
+                <a href="./views/menu.html"><img src="./images/eats.svg" alt="uber eats"  style="width: 100px; height: 100x;"></a>  
+                <a href="./views/menu.html"><h4>O ingresa al Delivery Menú</h4></a>                       
             </div>
             
         </div>        
@@ -117,4 +120,5 @@
     </div>
 
 </body>
+<script src="./scripts/AOS.js"></script>
 </html>

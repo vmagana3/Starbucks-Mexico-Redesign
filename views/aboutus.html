@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Shop</title>
+    <title>Starbucks Coffee Shop</title>
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="../css/menufooter.css">
     <link rel="stylesheet" href="../css/aboutus.css">
+     <!--Libreria de animación-->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- Enlace a tipografias -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
@@ -40,8 +43,8 @@
     <!-- Contenido principal de la página --> 
 
     <div id="starbucks">
-        <div>
-            <img src="../images/starbucks.svg" style="width: 150px; height: 150px;" alt="">
+        <div data-aos="fade-up">
+            <img data-aos="zoom-in" src="../images/starbucks.svg" style="width: 150px; height: 150px;" alt="">
             <h1 class="text1">STARBUCKS</h1>
 
             <h4 class="text2">Sucede millones de veces todas las semanas
@@ -57,7 +60,7 @@
                 "Pero establece una conexión"
             </p>
             <div>
-                <img src="../images/client.jpg" alt="" width="50%">            
+                <img data-aos="fade-right" src="../images/client.jpg" alt="" width="50%">            
             </div>
             
             
@@ -67,7 +70,7 @@
     </div>
 
 
-    <div id="ourCompany">
+    <div data-aos="fade-up" id="ourCompany">
         <div>
             <h1 class="text1">NUESTRA EMPRESA</h1>
 
@@ -86,13 +89,13 @@
                 y lo comprobarás: somos mucho más que los cafés que elaboramos"                                                 
             </p>
             <div>
-                <img src="../images/people.webp" alt="" width="50%">            
+                <img data-aos="fade-left" src="../images/people.webp" alt="" width="50%">            
             </div>
         </div>
     </div>
 
 
-    <div id="ourMision">
+    <div data-aos="fade-up" id="ourMision">
 
         <div id="title">
             <h1 class="text1">
@@ -167,4 +170,5 @@
 </body>
 <!--Scripts-->
 <script src="../scripts/coffeescripts.js"></script>
+<script src="../scripts/AOS.js"></script>
 </html>

@@ -81,6 +81,12 @@ body
                 font-family: $MainTypographie;
                 font-size: medium;
             }
+            .btnrewards:hover
+            {
+                color: $WhiteBackground;
+                background-color: $GreenBackground;
+                border: 1px solid $WhiteBackground;                
+            }
             div 
             {
                 box-shadow: none;

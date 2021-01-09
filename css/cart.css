@@ -56,5 +56,10 @@ body #mainContainer div #pay button {
   padding: 1%;
   font-family: "Rubik", sans-serif;
 }
+body #mainContainer div #pay button:hover {
+  color: #006341;
+  background-color: #FFFFFF;
+  border: 1px solid #006341;
+}
 
 /*# sourceMappingURL=cart.css.map */

@@ -10,6 +10,10 @@
   display: flex;
   justify-content: center;
 }
+#menu #logo:hover img {
+  transform: scale(1.1) translate(1%, 1%);
+  transition-duration: 0.5s;
+}
 #menu #optionsDiv {
   width: 45%;
   display: flex;
@@ -47,8 +51,17 @@
   border-radius: 10px;
   padding: 3%;
 }
+#menu #shopDiv div #linkDelivery:hover {
+  color: #006341;
+  background-color: #FFFFFF;
+  border: 1px solid #006341;
+}
 #menu #shopDiv div #linkCart {
   align-self: center;
+}
+#menu #shopDiv div #linkCart:hover img {
+  transform: scale(1.1) translate(1%, 1%);
+  transition-duration: 0.5s;
 }
 
 #footer {

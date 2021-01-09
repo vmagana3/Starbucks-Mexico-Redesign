@@ -51,6 +51,11 @@ body #rewardsSection div .btnrewards {
   font-family: "Rubik", sans-serif;
   font-size: medium;
 }
+body #rewardsSection div .btnrewards:hover {
+  color: #FFFFFF;
+  background-color: #006341;
+  border: 1px solid #FFFFFF;
+}
 body #rewardsSection div div {
   box-shadow: none;
 }

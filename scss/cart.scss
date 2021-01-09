@@ -87,6 +87,12 @@ body
                     padding: 1%;   
                     font-family: $MainTypographie;             
                 }
+                button:hover
+                {
+                    color: $GreenBackground;
+                    background-color: $WhiteBackground;
+                    border: 1px solid $GreenBackground;                
+                }
             }
 
         }
