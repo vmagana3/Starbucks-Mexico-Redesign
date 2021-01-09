@@ -18,8 +18,66 @@ body
     margin: 0;
     padding: 0;
     font-family: $MainTypographie; 
-    
-    
-       
 
+    #mainTitle
+    {
+        text-align: center;
+        margin-top: 7%;        
+        h3
+        {
+            font-weight: lighter;
+        }
+    }
+
+    .coffeeSection
+    {
+        width: 100%;
+        margin-top: 10%;
+        text-align: center; 
+        img
+        {
+            width: 250px;
+        }
+        .number
+        {
+            display: flex;
+            justify-content: center;
+            div
+            {
+                background-color: $GreenBackground;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;                
+                text-align: center;
+                justify-self: center;
+                box-shadow: inset 0 0 0 3px $WhiteBackground;
+                border: 3px solid $GreenBackground;                
+                h1
+                {
+                    margin: 0;
+                    margin-top: 35%;                    
+                    color: $WhiteBackground;                                                            
+                }                
+            }           
+        }
+        h3
+        {
+            color:$GreenBackground;            
+            margin: 0;
+            margin-top: 1%;
+        }                              
+        div 
+        {                                       
+            display: flex;
+            justify-content: center;           
+            h4
+            {
+                width: 70%;
+                font-weight: lighter;            
+                margin: 0;
+                margin-bottom: 3%;
+                margin-top: 1%;
+            }
+        }    
+    }
 }
