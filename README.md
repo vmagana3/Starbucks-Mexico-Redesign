@@ -6,6 +6,7 @@ Check below some resoruces that i used to complement the project.
 
 # See the Web site on
 https://vmagana3.github.io/Starbucks-Mexico-Redesign/
+![Screenshot](images/main.PNG)
 
 
 ## Attributions
