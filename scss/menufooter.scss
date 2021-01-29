@@ -8,7 +8,6 @@ $BlackTypographie:#000000;
 $WhiteTypographie: #FFFFFF;
 $RedBackground:#e2211c;
 
-
 //-------------Typographies------------//
 $MainTypographie:'Rubik', sans-serif;
 
@@ -131,4 +130,82 @@ $MainTypographie:'Rubik', sans-serif;
             width: 50%;                                                                                             
         }
     }
+}
+
+
+
+//------------------------------------------Responsive Styles---------------------------------------------------//
+@media (max-width: 400px)
+{
+
+    #menu
+    {           
+        #logo
+        {            
+            width: 100%;
+            margin: 0;                                                                                                                                             
+        }
+
+        flex-direction: column;
+        #optionsDiv
+        {            
+            width: 100%;
+            justify-content: center;
+            div
+            {
+                flex-direction: column;                
+                .options
+                {
+                    margin-top: 20%;
+                }
+            }                        
+
+
+        }  
+        
+        #shopDiv
+        {            
+            width: 100%;                        
+            div
+            {                             
+                width: 90%;
+                flex-direction: column;
+                border-top: 1px solid white;  
+                margin-top: 10%; 
+                padding-top: 5%;                
+                a
+                {
+                    margin-top: 5%;                    
+                }
+                #linkDelivery
+                {
+                    width: 70%;
+                    text-align: center;                                        
+                }
+            }                                                
+        }
+    }
+
+    #footer
+    {        
+        width: 100%;
+        flex-direction: column-reverse; 
+        .footerItem
+        {            
+            width: 100%;
+            margin-top: 10%;
+
+            #socialNetworks
+            {
+                margin-bottom: 5%;
+                flex-direction: column;                
+                a
+                {
+                    align-self: center;
+                    margin-top: 20%;
+                }             
+            }
+        }       
+    }  
+
 }
