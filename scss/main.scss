@@ -139,3 +139,70 @@ body
         }
     }    
 }
+
+
+
+
+//----------------------------------Responsive Styles----------------------------------------------//
+@media (max-width: 400px)
+{
+    #coffeeText
+    {
+        div
+        {            
+            h1{
+                font-size: 100%;
+            }            
+            p{                
+                font-size: 115% !important;                  
+            }              
+        }
+    }
+
+    #rewardsSection
+    {
+        width: 100%;
+        div
+        {
+            width: 65%;
+            h1,h2,h3
+            {
+
+                font-size: 120%;
+            }
+            div
+            {
+                width: 90%;                                
+            }
+        }                
+    }
+
+    #deliverySection
+    {        
+        flex-direction: column;        
+
+        #deliverySectionImage
+        {
+            width: 100% !important;                               
+            img
+            {
+                width: 50% !important;
+            }
+        }
+
+        #deliverySectionText
+        {
+            width: 100% !important;   
+            div
+            {
+                h1{
+                    font-size: larger;
+                }
+                p
+                {
+                    font-size: large !important;
+                }
+            }         
+        }
+    }
+}

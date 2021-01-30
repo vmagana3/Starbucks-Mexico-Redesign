@@ -94,4 +94,45 @@ body #deliverySection #deliverySectionText div a {
   color: #3D3935;
 }
 
+@media (max-width: 400px) {
+  #coffeeText div h1 {
+    font-size: 100%;
+  }
+  #coffeeText div p {
+    font-size: 115% !important;
+  }
+
+  #rewardsSection {
+    width: 100%;
+  }
+  #rewardsSection div {
+    width: 65%;
+  }
+  #rewardsSection div h1, #rewardsSection div h2, #rewardsSection div h3 {
+    font-size: 120%;
+  }
+  #rewardsSection div div {
+    width: 90%;
+  }
+
+  #deliverySection {
+    flex-direction: column;
+  }
+  #deliverySection #deliverySectionImage {
+    width: 100% !important;
+  }
+  #deliverySection #deliverySectionImage img {
+    width: 50% !important;
+  }
+  #deliverySection #deliverySectionText {
+    width: 100% !important;
+  }
+  #deliverySection #deliverySectionText div h1 {
+    font-size: larger;
+  }
+  #deliverySection #deliverySectionText div p {
+    font-size: large !important;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
