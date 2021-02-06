@@ -106,9 +106,37 @@ body #ourMision #cardsContent div div p {
 body #ourMision #cardsContent div div img {
   width: 50%;
   border-radius: 20px;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+}
+
+@media (max-width: 400px) {
+  #starbucks div img, #ourCompany div img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  #starbucks div h1, #starbucks div h4, #starbucks div p, #ourCompany div h1, #ourCompany div h4, #ourCompany div p {
+    font-size: medium !important;
+  }
+  #starbucks div div img, #ourCompany div div img {
+    width: 150px !important;
+  }
+
+  #ourMision h1, #ourMision h4, #ourMision p {
+    font-size: medium !important;
+  }
+  #ourMision #cardsContent {
+    flex-direction: column;
+  }
+  #ourMision #cardsContent div {
+    width: 100% !important;
+    align-self: center;
+  }
+  #ourMision #cardsContent div div img {
+    width: 80px !important;
+  }
+  #ourMision #cardsContent div div p {
+    padding: 3% 10% 3% 10%;
+    font-size: small !important;
+  }
 }
 
 /*# sourceMappingURL=aboutus.css.map */

@@ -154,13 +154,67 @@ body
                     img
                     {
                         width: 50%;                                               
-                        border-radius: 20px; 
-                        -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
-                        -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.75);
-                        box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.75);                           
+                        border-radius: 20px;                                              
                     }
                 } 
             }            
+        }
+    }
+}
+
+//------------------------Responsive Styles------------------------------//
+@media (max-width: 400px)
+{
+    #starbucks,#ourCompany
+    {
+        div
+        {
+            img
+            {
+                width: 100px !important;
+                height: 100px !important;
+            }
+
+            h1,h4,p
+            {
+                font-size: medium !important;
+            }
+            div
+            {
+                img
+                {
+                    width: 150px !important;                    
+                }
+            }
+        }        
+    }    
+    #ourMision
+    {
+        h1,h4,p
+        {
+            font-size: medium !important;
+        }
+        #cardsContent
+        {            
+            flex-direction: column;
+            div
+            {                
+                width: 100% !important;
+                align-self: center;
+
+                div
+                {
+                    img
+                    {
+                        width: 80px !important;                                           
+                    }
+                    p
+                    {
+                        padding: 3% 10% 3% 10%;
+                        font-size: small !important;
+                    }
+                }
+            }
         }
     }
 }
