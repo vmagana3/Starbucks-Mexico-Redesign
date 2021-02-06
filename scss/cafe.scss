@@ -81,3 +81,48 @@ body
         }    
     }
 }
+
+//---------------Responsive Styles---------------------------//
+@media (max-width: 400px)
+{
+    #mainTitle
+    {
+        font-size: small;
+        padding: 10% !important;        
+    }    
+
+    .coffeeSection
+    {  
+        margin-top: 20% !important;
+        .number
+        {
+            div
+            {
+                width: 70px !important;
+                height: 70px !important;
+                h1
+                {
+                    font-size:medium;
+                }
+            }
+        }   
+        
+        h3
+        {
+            font-size: medium !important;
+            padding: 3% 10% 3% 10% ;
+        }
+
+        div
+        {
+            h4
+            {
+                font-size: smaller;
+            }
+        }
+        img
+        {
+            width: 150px !important;
+        }
+    }
+}

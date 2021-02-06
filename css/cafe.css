@@ -54,4 +54,32 @@ body .coffeeSection div h4 {
   margin-top: 1%;
 }
 
+@media (max-width: 400px) {
+  #mainTitle {
+    font-size: small;
+    padding: 10% !important;
+  }
+
+  .coffeeSection {
+    margin-top: 20% !important;
+  }
+  .coffeeSection .number div {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .coffeeSection .number div h1 {
+    font-size: medium;
+  }
+  .coffeeSection h3 {
+    font-size: medium !important;
+    padding: 3% 10% 3% 10%;
+  }
+  .coffeeSection div h4 {
+    font-size: smaller;
+  }
+  .coffeeSection img {
+    width: 150px !important;
+  }
+}
+
 /*# sourceMappingURL=cafe.css.map */
