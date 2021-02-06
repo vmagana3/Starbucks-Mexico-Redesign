@@ -21,7 +21,8 @@ body
     
     #maincontent
     {
-        display: flex;justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
         padding-left: 10%;
         padding-right: 15%;
         margin-top: 5%;        
@@ -58,6 +59,7 @@ body
             }
         }
 
+
         #data
         {            
             .dataitem
@@ -76,4 +78,47 @@ body
         }
     }
 
+}
+
+
+
+@media (max-width: 400px)
+{
+    #maincontent
+    {
+        flex-direction: column;             
+
+        #form
+        {
+            width: 100% !important;  
+            #text
+            {
+                h2
+                {
+                    font-size: larger;
+                }                
+                p
+                {
+                    font-size: medium;
+                }
+            }   
+            #inputs
+            {
+                input
+                {
+                    width: 100% !important;
+                }
+            }       
+        }
+        
+        #data
+        {            
+            display: flex;
+            flex-direction: column;                                    
+            .dataitem
+            {        
+                text-align: center;                                                                               
+            }
+        }
+    }
 }

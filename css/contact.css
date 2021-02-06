@@ -47,4 +47,29 @@ body #maincontent #data .dataitem p {
   margin: 0;
 }
 
+@media (max-width: 400px) {
+  #maincontent {
+    flex-direction: column;
+  }
+  #maincontent #form {
+    width: 100% !important;
+  }
+  #maincontent #form #text h2 {
+    font-size: larger;
+  }
+  #maincontent #form #text p {
+    font-size: medium;
+  }
+  #maincontent #form #inputs input {
+    width: 100% !important;
+  }
+  #maincontent #data {
+    display: flex;
+    flex-direction: column;
+  }
+  #maincontent #data .dataitem {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=contact.css.map */
