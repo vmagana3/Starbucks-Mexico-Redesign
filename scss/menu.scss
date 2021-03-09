@@ -17,8 +17,7 @@ body
 {
     margin: 0;
     padding: 0;
-    font-family: $MainTypographie; 
-
+    font-family: $MainTypographie;         
     #text
     {
         width: 100%;
@@ -45,4 +44,32 @@ body
             }
         }
     }
+}
+
+@media (max-width: 400px){
+    body{  
+
+        #text{
+            margin-top: 10% !important;
+            h1{
+                font-size: 200% !important
+            }
+            h4{
+                padding: 0% 10% 0% 10%;
+                font-size: 120% !important                
+            }
+        }
+        
+        #menuItems
+        {
+            flex-direction: column;
+            #coffeeCup{
+                width: 35%;                
+            } 
+            #pieceCake{
+                width: 45%;                
+            }                                             
+        }
+
+    }    
 }

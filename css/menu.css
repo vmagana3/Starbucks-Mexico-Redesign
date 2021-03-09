@@ -23,4 +23,26 @@ body #menuItems div img:hover {
   transition-duration: 0.5s;
 }
 
+@media (max-width: 400px) {
+  body #text {
+    margin-top: 10% !important;
+  }
+  body #text h1 {
+    font-size: 200% !important;
+  }
+  body #text h4 {
+    padding: 0% 10% 0% 10%;
+    font-size: 120% !important;
+  }
+  body #menuItems {
+    flex-direction: column;
+  }
+  body #menuItems #coffeeCup {
+    width: 35%;
+  }
+  body #menuItems #pieceCake {
+    width: 45%;
+  }
+}
+
 /*# sourceMappingURL=menu.css.map */
